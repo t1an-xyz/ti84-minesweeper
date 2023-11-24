@@ -1,0 +1,118 @@
+Section          Base   Top    High   Length
+---------------- ------ ------ ------ -------
+.icon            D1A882 D1A893            11h
+.init.libs       D1A893 D1A8EB            58h
+.libs            D1A8EB D1A944            59h
+.init.clock      D1A944 D1A944             0h
+.init.reruncheck D1A944 D1A944             0h
+.init            D1A944 D1A96E            2Ah
+.fini            D1A96E D1A9A2            34h
+.text            D1A9A2 D1BFA4          1602h
+.data            D1BFA4 D1BFB7            13h
+.rodata          D1BFB7 D1C03A            83h
+.init_array      000000 000000             0h
+.ctors           000000 000000             0h
+.dtors           000000 000000             0h
+.fini_array      000000 000000             0h
+.bss             D052C6 D052CF D13FD8      9h
+.header          D1A87F D1A882             3h
+
+Label                                  Value
+------------------------------------   ------
+___low_bss                           = D052C6
+___len_bss                           = 000009
+___heaptop                           = D13FD8
+___heapbot                           = D052CF
+___libs                              = D1A8EB
+___init_array_count                  = 000000
+___ctors_count                       = 000000
+___dtors_count                       = 000000
+___fini_array_count                  = 000000
+__stack                              = D1A87E
+__frameset                           = D1A9A2
+__frameset0                          = D1A9B0
+__iand                               = D1A9BB
+__idivs                              = D1A9D4
+__idvrms                             = D1A9DB
+__idvrmu                             = D1AA09
+__imulu                              = D1AA21
+__indcallhl                          = D1AA51
+__ineg                               = D1AA52
+__irems                              = D1AA5B
+__iremu                              = D1AA63
+__ixor                               = D1AA6A
+__lcmpu                              = D1AA83
+__lcmpzero                           = D1AA8B
+__lshrs.hijack_lshru                 = D1AA9F
+__lshru                              = D1AAAE
+__ftol                               = 00027C
+__ftoul                              = 00027C
+__ltof                               = 000284
+__setflag                            = 000218
+__ultof                              = 000280
+__sand                               = D1AABE
+_atomic_load_32                      = D1AAC7
+_os_DisableHomeTextBuffer            = D1AAE5
+_os_EnableHomeTextBuffer             = D1AAF7
+_random                              = D1AB09
+__setstate                           = D1AB67
+__state                              = D1BFA4
+_malloc                              = D1AB77
+__alloc_base                         = D052C6
+__ishl                               = 000174
+_memset                              = D1AC16
+_sbrk                                = D1AC2D
+__sbrkbase                           = D1BFB4
+_srand                               = D1AC4B
+__Znwj                               = D1AC53
+__Znaj                               = D1AC94
+__ZNSt12_GLOBAL__N_113__new_handlerE = D052CC
+.missingappvar                       = D1BFB7
+.libloadname                         = D1BFBC
+.libloadnamelen                      = 000007
+.webaddress                          = D1BFC4
+__start                              = D1A944
+___exithl                            = D1A96E
+skip._exit                           = D1A96E
+skip.__Exit                          = D1A96E
+skip._abort                          = D1A96E
+_exit.sp                             = D1A96F
+_exit.flash_wait_states              = D1A979
+__Z8mainMenuRh                       = D1ACA4
+__Z4gameiRh                          = D1AF48
+__ZN4GameC2Ei                        = D1AFFE
+__ZN4Game9showBoardEv                = D1B19A
+__ZN4Game4tickERhS0_                 = D1B4D4
+__ZN4Game4moveEi                     = D1B67E
+__ZN4Game3actEi                      = D1B726
+__ZN4Game4loseEv                     = D1B8B5
+__ZN4Game3winEv                      = D1B977
+__ZN4Game13generateBoardEv           = D1BA30
+__ZN4Game12floodUncoverEii           = D1BC7A
+__ZN4Game14drawScoreboardEi          = D1BE83
+_main                                = D1BF53
+_.str                                = D1BFD9
+_.str.1                              = D1BFE5
+_.str.2                              = D1BFEE
+_.str.3                              = D1BFFB
+_.str.4                              = D1C002
+___const._ZN4Game9showBoardEv.colors = D1C01C
+_.str.5                              = D1C034
+_.str.6                              = D1C036
+_.str.7                              = D1C038
+lib.LibLoad                          = D1A8EB
+_#gfx_Begin                          = D1A8FE
+_#gfx_End                            = D1A902
+_#gfx_SetColor                       = D1A906
+_#gfx_FillScreen                     = D1A90A
+_#gfx_SetDraw                        = D1A90E
+_#gfx_SwapDraw                       = D1A912
+_#gfx_PrintInt                       = D1A916
+_#gfx_PrintStringXY                  = D1A91A
+_#gfx_SetTextXY                      = D1A91E
+_#gfx_SetTextBGColor                 = D1A922
+_#gfx_SetTextFGColor                 = D1A926
+_#gfx_Rectangle                      = D1A92A
+_#gfx_FillRectangle_NoClip           = D1A92E
+_#gfx_SetTextScale                   = D1A932
+_#kb_Scan                            = D1A940
